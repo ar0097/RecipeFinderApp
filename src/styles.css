@@ -1,0 +1,159 @@
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+}
+
+.logo img {
+  max-width: 50px;
+  height: auto;
+}
+
+.search {
+  width: 70%;
+  margin-left: 50px;
+}
+.search input {
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-right: 10px;
+  width: 70%;
+}
+
+.search button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.cart {
+  background-color: #007bff;
+  color: #fff;
+  padding: 3px 5px;
+  border-radius: 5px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  min-width: 300px;
+  max-width: 300px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.recipe-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.card-content {
+  padding: 10px;
+}
+
+h4 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.view-details-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.details {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 50px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  text-align: center;
+  transition: transform 0.2s;
+  display: flex;
+  margin: auto;
+  margin-top: 20px;
+  min-width: 600px;
+  max-width: 600px;
+}
+
+.details:hover {
+  transform: scale(1.02);
+}
+
+.details-content {
+  padding: 10px;
+}
+
+h4 {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 18px;
+  display: inline;
+}
+
+.save-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.show-ingredient {
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.show-ingredient h4 {
+  font-weight: bold;
+}
+
+.recipe-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.list-ingredient {
+  list-style-type: disc;
+  text-align: justify;
+  margin: 10px;
+  line-height: 30px;
+}
+
+.favourite {
+  display: flex;
+}
